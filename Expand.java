@@ -5,7 +5,7 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.regex.Pattern;
 
-class Expand {
+public class Expand {
 
     private static int parseTabNum = -1;
     private static boolean nextNumFlag = false;
@@ -13,7 +13,7 @@ class Expand {
     private static final Pattern p = Pattern.compile(regex);
     private static String fname;
 
-    private static boolean isNumber(String str) {
+    public static boolean isNumber(String str) {
         return p.matcher(str).find();
     }
 

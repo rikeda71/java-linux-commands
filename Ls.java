@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.ListIterator;
 
-class Ls {
+public class Ls {
 
     private static ArrayList<String> path = new ArrayList<>();
     private static boolean isAll = false;

@@ -3,7 +3,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-class Wc {
+public class Wc {
     public static void main(String[] args) {
         if (args.length < 1) {
             System.out.println("you must set an argument");
